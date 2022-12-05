@@ -9,7 +9,7 @@ This analysis uses msg_extracts.csv spreadsheets.
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `output/msg_extracts.csv`: Compiled data of Brookhaven Police Department Neighbors/Ring alerts
+  - [Extracts](`output/msg_extracts.csv`): Compiled data of Brookhaven Police Department Neighbors/Ring alerts
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
@@ -19,7 +19,7 @@ Each of the spreadsheets contain, among others, the following columns relevant t
 
 ## Methodology
 
-The notebook [notebook/Final analyses of Brookhaven Neighbors alerts.ipynb] performs the following analyses:
+The `notebook` (notebooks/Final analyses of Brookhaven Neighbors alerts.ipynb) performs the following analyses:
 
 ##### Part 1: The unique number of recipients
 
