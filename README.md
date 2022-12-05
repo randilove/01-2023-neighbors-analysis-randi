@@ -1,38 +1,41 @@
-# Analysis of TK data set — MM/YYYY to MM/YYYY
+# Analysis of Brookhaven Police Department Neighbors/Ring alerts data set — 01/2021 to 05/2022
 
 This repository contains data, analytic code, and findings that support portions of the article, “[TKTKTKTK](https://www.google.com),” published Month Date, Year. Please read that article, which contains important context and details, before proceeding.
 
 ## Data
 
-This analysis uses TKTKTK spreadsheets.
+This analysis uses msg_extracts.csv spreadsheets.
 
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `name_of_spreadsheet.xlsx`: Raw data of TKTKTK
+  - `msg_extracts.csv`: Compiled data of Brookhaven Police Department Neighbors/Ring alerts
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
-- `tktktk` — TK description
-- `tktktk` — TK description
+- The unique number of recipients
+- Tallies over time
+- Tallies of the 'title' column values containing “package” and “car”
 
 ## Methodology
 
-The notebook [`tktktktk.ipynb`](notebooks/tktktktk.ipynb) performs the following analyses:
+The notebook [notebook/Final analyses of Brookhaven Neighbors alerts.ipynb] performs the following analyses:
 
-##### Part 1: TKTK
+##### Part 1: The unique number of recipients
 
-- Description of what you did with the data
+- Found the total number of recipients and tallied the total alerts each received. 
 
+##### Part 2: Tallies over time
 
-##### Part 2: TKTK
+- Found the total number of alerts sent during each month 
 
-- Description of what you did with the data
+##### Part 3: Tallies of the 'title' column values containing “package” and “car”
 
+- Analyzed the data to find the number of alerts that included either keyword in the title.
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains TKTK: [`output/tktktk.csv`](output/tktktk.csv).
+The notebooks output this spreadsheet which contains Unique Recipient Count, Resampling by Month and Tally of Keywords: [`output/unique_count_Love.csv`](output/resampling_Love.csv)[`output/words_Love.csv`].
 
 ## Running the analysis yourself
 
@@ -47,4 +50,4 @@ All code in this repository is available under the [MIT License](https://opensou
 
 ## Feedback / Questions?
 
-Contact YOUR NAME HERE at your.name@email.com.
+Contact Randi Love at randirelove@gmail.com.
