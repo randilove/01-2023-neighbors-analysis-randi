@@ -9,7 +9,7 @@ This analysis uses msg_extracts.csv spreadsheets.
 The spreadsheets come from the following sources:
 
 - Name of source:
-  - `msg_extracts.csv`: Compiled data of Brookhaven Police Department Neighbors/Ring alerts
+  - `output/msg_extracts.csv`: Compiled data of Brookhaven Police Department Neighbors/Ring alerts
 
 Each of the spreadsheets contain, among others, the following columns relevant to the analysis:
 
@@ -35,7 +35,7 @@ The notebook [notebook/Final analyses of Brookhaven Neighbors alerts.ipynb] perf
 
 ## Outputs
 
-The notebooks output this spreadsheet which contains Unique Recipient Count, Resampling by Month and Tally of Keywords: [`output/unique_count_Love.csv`](output/resampling_Love.csv)[`output/words_Love.csv`].
+The notebooks output this spreadsheet which contains [Unique Recipient Count, Resampling by Month and Tally of Keywords](`output/unique_count_Love.csv`,`output/resampling_Love.csv`,`output/words_Love.csv`).
 
 ## Running the analysis yourself
 
